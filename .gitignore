@@ -1,0 +1,21 @@
+# Datos de entrada (información personal)
+Cuentas *.csv
+Correos ELN *.csv
+User_Download_*.csv
+
+# Outputs generados
+subida_masiva_workspace.csv
+reporte_problemas.csv
+revision_manual.csv
+log_envios.csv
+
+# Configuración local con credenciales (NO subir a git)
+config.json
+.claude/
+
+# Historial de logs archivados
+logs/
+
+# Python
+__pycache__/
+*.pyc

@@ -1,0 +1,18 @@
+{
+  "sendgrid": {
+    "api_key": "SG.CAMBIAR_API_KEY",
+    "template_id": "d-CAMBIAR_TEMPLATE_ID",
+    "from_email": "soporte@CAMBIAR_DOMINIO",
+    "from_name": "CAMBIAR_NOMBRE_REMITENTE"
+  },
+  "tipos": {
+    "Estudiantes": {
+      "password": "CAMBIAR_CONTRASEÑA_ESTUDIANTES",
+      "ou": "/Cuentas Prepa/estudiantes/CAMBIAR_CICLO"
+    },
+    "Guías / Docentes": {
+      "password": "CAMBIAR_CONTRASEÑA_DOCENTES",
+      "ou": "/Cuentas Prepa/Docentes Prepa"
+    }
+  }
+}
