@@ -12,8 +12,8 @@ Diseñada para flujos de onboarding escolar: toma un CSV de alumnos, genera el a
 - Soporte para múltiples tipos de cuenta (estudiantes, docentes, etc.) con contraseña y unidad organizativa independientes por tipo
 - Detección y corrección automática de errores comunes en los datos de entrada:
   - Typos de dominio de email (`gmai.com` → `gmail.com`, `hotmial.com` → `hotmail.com`, etc.)
-  - Caracteres Unicode especiales en emails (copiados desde WhatsApp o Google Docs)
-  - Nombres repetidos en ambas columnas
+  - Caracteres Unicode de fuente monoespaciada copiados desde WhatsApp o Google Docs (normalización NFKD)
+  - Nombres repetidos en ambas columnas — el script infiere la separación correcta
   - Espacios y saltos de línea dentro del email
 - Generación automática de correo institucional con manejo de colisiones
 - Reporte detallado de problemas encontrados y correcciones aplicadas
